@@ -1,9 +1,9 @@
 {
-  "name": "@monorepo-template/functions",
+  "name": "@kensing-swords-demo/functions",
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@monorepo-template/core": "*",
+    "@kensing-swords-demo/core": "*",
     "sst": "*"
   },
   "devDependencies": {

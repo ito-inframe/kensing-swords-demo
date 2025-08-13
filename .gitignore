@@ -16,3 +16,19 @@ node_modules
 
 # misc
 .DS_Store
+
+# emacs backup
+*~
+
+**/coverage/**
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+docs/0426HTML
+docs/0510HTML
+docs/0603HTML
+

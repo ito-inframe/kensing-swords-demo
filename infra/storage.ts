@@ -1,1 +1,4 @@
-export const bucket = new sst.aws.Bucket("MyBucket");
+export const bucket = new sst.aws.Bucket("KensingSwordsDemo", {
+  access: "public",
+  principals: "*"
+});
