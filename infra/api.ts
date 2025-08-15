@@ -7,6 +7,11 @@ api.route("GET /", {
   handler: "packages/functions/src/api.handler",
 });
 
+api.route("GET /meters/{ym}", {
+  link: [bucket],
+  handler: "packages/functions/src/listmeters.main",
+});
+
 /*
 export const myApi = new sst.aws.Function("MyApi", {
   url: true,
